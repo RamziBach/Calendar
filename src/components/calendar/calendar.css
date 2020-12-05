@@ -1,0 +1,82 @@
+.calendar-title {
+  text-align: center;
+  line-height: 1;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+  justify-items: center;
+}
+
+.month {
+  text-align: center;
+  margin: 0;
+  color: var(--clr-accent);
+}
+
+.calendar-week {
+  display: grid;
+  grid-template-columns: repeat(7, 3em);
+  justify-items: center;
+  grid-gap: 0.5em;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  text-align: center;
+  grid-gap: 0.5em;
+}
+
+.days {
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+  cursor: pointer;
+  user-select: none;
+}
+
+.days:hover {
+  transform: scale(1.1);
+}
+
+.january-empty {
+  grid-column-start: span 5;
+}
+
+.april-empty {
+  grid-column-start: span 4;
+}
+
+.may-empty {
+  grid-column-start: span 6;
+}
+
+.june-empty {
+  grid-column-start: span 2;
+}
+
+.july-empty {
+  grid-column-start: span 4;
+}
+
+.september-empty {
+  grid-column-start: span 3;
+}
+
+.october-empty {
+  grid-column-start: span 5;
+}
+
+.november-empty {
+  grid-column-start: span 1;
+}
+
+.december-empty {
+  grid-column-start: span 3;
+}
+
+.canadian-icon {
+  color: var(--clr-accent);
+}

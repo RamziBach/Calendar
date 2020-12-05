@@ -1,0 +1,39 @@
+.legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--fs-h1);
+}
+
+.legend-holiday-parent,
+.legend-weekend-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.legend-holiday {
+  width: 48px;
+  height: 25px;
+  background-color: var(--clr-accent);
+}
+
+.legend-weekends {
+  width: 48px;
+  height: 25px;
+  background-color: #8aa6c1;
+}
+
+.legend-name {
+  margin: 0;
+  min-width: 8em;
+  text-align: center;
+}
+
+.holiday {
+  color: var(--clr-accent);
+}
+
+.weekends {
+  color: #8aa6c1;
+}
