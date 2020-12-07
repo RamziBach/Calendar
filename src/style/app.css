@@ -2,6 +2,7 @@
 @import '../components/calendar/calendar.css';
 @import '../components/legend/legend.css';
 @import '../components/moon/moon.css';
+@import '../components/modal/modal.css';
 
 :root {
   --clr-dark: #100818;
