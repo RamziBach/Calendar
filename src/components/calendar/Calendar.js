@@ -136,8 +136,7 @@ const Calendar = () => {
       <div className="md-container">
         <h1 className="calendar-title">
           Canadian Calendar{' '}
-          <i className="canadian-icon fab fa-canadian-maple-leaf"></i> <br />{' '}
-          2021
+          <i className="canadian-icon fab fa-canadian-maple-leaf" /> <br /> 2021
         </h1>
         <Legend />
         <div className="calendar-grid">
@@ -146,72 +145,96 @@ const Calendar = () => {
             daysOfTheWeek={daysOfTheWeek}
             className="january"
             month={january}
+            newMoon="13"
+            fullMoon="28"
           />
           <Month
             monthTitle="February"
             daysOfTheWeek={daysOfTheWeek}
             className="february"
             month={february}
+            newMoon="11"
+            fullMoon="27"
           />
           <Month
             monthTitle="March"
             daysOfTheWeek={daysOfTheWeek}
             className="march"
             month={march}
+            newMoon="13"
+            fullMoon="28"
           />
           <Month
             monthTitle="April"
             daysOfTheWeek={daysOfTheWeek}
             className="april"
             month={april}
+            newMoon="11"
+            fullMoon="26"
           />
           <Month
             monthTitle="May"
             daysOfTheWeek={daysOfTheWeek}
             className="may"
             month={may}
+            newMoon="11"
+            fullMoon="26"
           />
           <Month
             monthTitle="June"
             daysOfTheWeek={daysOfTheWeek}
             className="june"
             month={june}
+            newMoon="10"
+            fullMoon="24"
           />
           <Month
             monthTitle="July"
             daysOfTheWeek={daysOfTheWeek}
             className="july"
             month={july}
+            newMoon="9"
+            fullMoon="23"
           />
           <Month
             monthTitle="August"
             daysOfTheWeek={daysOfTheWeek}
             className="august"
             month={august}
+            newMoon="8"
+            fullMoon="22"
           />
           <Month
             monthTitle="September"
             daysOfTheWeek={daysOfTheWeek}
             className="september"
             month={september}
+            newMoon=""
+            fullMoon=""
           />
           <Month
             monthTitle="October"
             daysOfTheWeek={daysOfTheWeek}
             className="october"
             month={october}
+            newMoon="6"
+            fullMoon="20"
           />
           <Month
             monthTitle="November"
             daysOfTheWeek={daysOfTheWeek}
             className="november"
             month={november}
+            newMoon="4"
+            fullMoon="19"
           />
           <Month
             monthTitle="December"
             daysOfTheWeek={daysOfTheWeek}
             className="december"
             month={december}
+            newMoon="4"
+            fullMoon="18"
           />
         </div>
       </div>

@@ -1,0 +1,7 @@
+.moon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7em;
+  margin: 0 auto 1em auto;
+}
