@@ -209,8 +209,8 @@ const Calendar = () => {
             daysOfTheWeek={daysOfTheWeek}
             className="september"
             month={september}
-            newMoon=""
-            fullMoon=""
+            newMoon="6"
+            fullMoon="20"
           />
           <Month
             monthTitle="October"

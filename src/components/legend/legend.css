@@ -1,12 +1,14 @@
 .legend {
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   margin-bottom: var(--fs-h1);
 }
 
 .legend-holiday-parent,
-.legend-weekend-parent {
+.legend-weekend-parent,
+.legend-edited-parent {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +26,12 @@
   background-color: #8aa6c1;
 }
 
+.legend-edited {
+  width: 48px;
+  height: 25px;
+  background-color: rgb(81, 161, 78);
+}
+
 .legend-name {
   margin: 0;
   min-width: 8em;
@@ -36,4 +44,8 @@
 
 .weekends {
   color: #8aa6c1;
+}
+
+.edited {
+  color: rgb(81, 161, 78);
 }
