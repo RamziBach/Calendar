@@ -61,6 +61,10 @@
   grid-column-start: span 4;
 }
 
+.august-empty {
+  display: none;
+}
+
 .september-empty {
   grid-column-start: span 3;
 }

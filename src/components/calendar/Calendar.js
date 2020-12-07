@@ -2,6 +2,7 @@ import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { calendar } from '../../data/data';
 import Legend from '../legend/Legend';
+import Month from '../month/Month';
 
 const Calendar = () => {
   const weeks = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
@@ -140,99 +141,78 @@ const Calendar = () => {
         </h1>
         <Legend />
         <div className="calendar-grid">
-          <div>
-            <h5 className="month">January</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">
-              <div className="january-empty"></div>
-              {january}
-            </div>
-          </div>
-          <div>
-            <h5 className="month">February</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">
-              <div className="february-empty"></div>
-              {february}
-            </div>
-          </div>
-          <div>
-            <h5 className="month">March</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">
-              <div className="march-empty"></div>
-              {march}
-            </div>
-          </div>
-          <div>
-            <h5 className="month">April</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">
-              <div className="april-empty"></div>
-              {april}
-            </div>
-          </div>
-          <div>
-            <h5 className="month">May</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">
-              <div className="may-empty"></div>
-              {may}
-            </div>
-          </div>
-          <div>
-            <h5 className="month">June</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">
-              <div className="june-empty"></div>
-              {june}
-            </div>
-          </div>
-          <div>
-            <h5 className="month">July</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">
-              <div className="july-empty"></div>
-              {july}
-            </div>
-          </div>
-          <div>
-            <h5 className="month">August</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">{august}</div>
-          </div>
-          <div>
-            <h5 className="month">September</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">
-              <div className="september-empty"></div>
-              {september}
-            </div>
-          </div>
-          <div>
-            <h5 className="month">October</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">
-              <div className="october-empty"></div>
-              {october}
-            </div>
-          </div>
-          <div>
-            <h5 className="month">November</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">
-              <div className="november-empty"></div>
-              {november}
-            </div>
-          </div>
-          <div>
-            <h5 className="month">December</h5>
-            <div className="calendar-week">{daysOfTheWeek}</div>
-            <div className="calendar-days">
-              <div className="december-empty"></div>
-              {december}
-            </div>
-          </div>
+          <Month
+            monthTitle="January"
+            daysOfTheWeek={daysOfTheWeek}
+            className="january"
+            month={january}
+          />
+          <Month
+            monthTitle="February"
+            daysOfTheWeek={daysOfTheWeek}
+            className="february"
+            month={february}
+          />
+          <Month
+            monthTitle="March"
+            daysOfTheWeek={daysOfTheWeek}
+            className="march"
+            month={march}
+          />
+          <Month
+            monthTitle="April"
+            daysOfTheWeek={daysOfTheWeek}
+            className="april"
+            month={april}
+          />
+          <Month
+            monthTitle="May"
+            daysOfTheWeek={daysOfTheWeek}
+            className="may"
+            month={may}
+          />
+          <Month
+            monthTitle="June"
+            daysOfTheWeek={daysOfTheWeek}
+            className="june"
+            month={june}
+          />
+          <Month
+            monthTitle="July"
+            daysOfTheWeek={daysOfTheWeek}
+            className="july"
+            month={july}
+          />
+          <Month
+            monthTitle="August"
+            daysOfTheWeek={daysOfTheWeek}
+            className="august"
+            month={august}
+          />
+          <Month
+            monthTitle="September"
+            daysOfTheWeek={daysOfTheWeek}
+            className="september"
+            month={september}
+          />
+          <Month
+            monthTitle="October"
+            daysOfTheWeek={daysOfTheWeek}
+            className="october"
+            month={october}
+          />
+          <Month
+            monthTitle="November"
+            daysOfTheWeek={daysOfTheWeek}
+            className="november"
+            month={november}
+          />
+          <Month
+            monthTitle="December"
+            daysOfTheWeek={daysOfTheWeek}
+            className="december"
+            month={december}
+          />
         </div>
       </div>
     </div>
