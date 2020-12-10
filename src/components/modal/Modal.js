@@ -1,12 +1,15 @@
 import React from 'react';
 
-const Modal = () => {
+const Modal = ({ isOpen, handleClose }) => {
   return (
-    <div className="modal">
+    <div
+      style={isOpen ? { display: 'grid' } : { display: 'none' }}
+      className="modal"
+    >
       <div className="modal-box">
         <div className="modal-header">
           <h4 className="modal-header-title">April 7 2021</h4>
-          <button className="modal-header-close-btn">
+          <button onClick={handleClose} className="modal-header-close-btn">
             <i className="fas fa-times"></i>
           </button>
         </div>
