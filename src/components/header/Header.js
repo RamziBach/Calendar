@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import 'animate.css';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

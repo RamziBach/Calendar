@@ -34,3 +34,7 @@
 .modal-header-close-btn {
   font-size: var(--fs-h4);
 }
+
+.holiday-title {
+  color: var(--clr-accent);
+}
