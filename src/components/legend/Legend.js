@@ -11,10 +11,10 @@ const Legend = () => {
         <h5 className="legend-name weekends">Weekends:</h5>
         <div className="legend-weekends"></div>
       </div>
-      <div className="legend-edited-parent">
+      {/* <div className="legend-edited-parent">
         <h5 className="legend-name edited">Edited Day:</h5>
         <div className="legend-edited"></div>
-      </div>
+      </div> */}
     </div>
   );
 };
