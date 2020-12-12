@@ -6,7 +6,8 @@ const january = [
     isWeekend: false,
     holidayName: "New Year's Day",
     date: 'January 1 2021',
-    howWasYourDay: 'Awesome',
+    holidayInformation:
+      "According to the Gregorian calendar, used in Canada and many other countries, January 1 is the first day of a new year. This date is commonly known as New Year's Day and is a statutory holiday in all Canadian provinces and territories.",
   },
   {
     id: 2,
@@ -15,7 +16,7 @@ const january = [
     isWeekend: true,
     holidayName: '',
     date: 'January 2 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 3,
@@ -24,7 +25,7 @@ const january = [
     isWeekend: true,
     holidayName: '',
     date: 'January 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 4,
@@ -33,7 +34,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 4 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 5,
@@ -42,7 +43,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 5 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 6,
@@ -51,7 +52,8 @@ const january = [
     isWeekend: false,
     holidayName: 'Epiphany',
     date: 'January 6 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Epiphany is celebrated in Canada on January 6 each year. It remembers the three wise men’s visit to baby Jesus and his baptism, according to events in the Christian Bible. Mummers or naluyuks may visit homes in Newfoundland and Labrador at this time of the year.',
   },
   {
     id: 7,
@@ -60,7 +62,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 8,
@@ -69,7 +71,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 8 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 9,
@@ -78,7 +80,7 @@ const january = [
     isWeekend: true,
     holidayName: '',
     date: 'January 9 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 10,
@@ -87,7 +89,7 @@ const january = [
     isWeekend: true,
     holidayName: '',
     date: 'January 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 11,
@@ -96,7 +98,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 11 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 12,
@@ -105,7 +107,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 13,
@@ -114,7 +116,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 14,
@@ -123,7 +125,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 14 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 15,
@@ -132,7 +134,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 15 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 16,
@@ -141,7 +143,7 @@ const january = [
     isWeekend: true,
     holidayName: '',
     date: 'January 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 17,
@@ -150,7 +152,7 @@ const january = [
     isWeekend: true,
     holidayName: '',
     date: 'January 17 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 18,
@@ -159,7 +161,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 19,
@@ -168,7 +170,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 20,
@@ -177,7 +179,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 20 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 21,
@@ -186,7 +188,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 21 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 22,
@@ -195,7 +197,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 23,
@@ -204,7 +206,7 @@ const january = [
     isWeekend: true,
     holidayName: '',
     date: 'January 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 24,
@@ -213,7 +215,7 @@ const january = [
     isWeekend: true,
     holidayName: '',
     date: 'January 24 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 25,
@@ -222,7 +224,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 25 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 26,
@@ -231,7 +233,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 26 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 27,
@@ -240,7 +242,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 28,
@@ -249,7 +251,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 29,
@@ -258,7 +260,7 @@ const january = [
     isWeekend: false,
     holidayName: '',
     date: 'January 29 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 30,
@@ -267,7 +269,7 @@ const january = [
     isWeekend: true,
     holidayName: '',
     date: 'January 30 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 31,
@@ -276,7 +278,7 @@ const january = [
     isWeekend: true,
     holidayName: '',
     date: 'January 31 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
 ];
 
@@ -288,7 +290,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 1 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 33,
@@ -297,7 +299,8 @@ const february = [
     isWeekend: false,
     holidayName: 'Groundhog Day',
     date: 'February 2 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Groundhog Day in Canada focuses on the concept of a groundhog coming out of its home in mid-winter to “predict” if spring is on its way in the northern hemisphere.',
   },
   {
     id: 34,
@@ -306,7 +309,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 35,
@@ -315,7 +318,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 4 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 36,
@@ -324,7 +327,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 5 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 37,
@@ -333,7 +336,7 @@ const february = [
     isWeekend: true,
     holidayName: '',
     date: 'February 6 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 38,
@@ -342,7 +345,7 @@ const february = [
     isWeekend: true,
     holidayName: '',
     date: 'February 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 39,
@@ -351,7 +354,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 8 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 40,
@@ -360,7 +363,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 9 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 41,
@@ -369,7 +372,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 42,
@@ -378,7 +381,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 11 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 43,
@@ -387,7 +390,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 44,
@@ -396,7 +399,7 @@ const february = [
     isWeekend: true,
     holidayName: '',
     date: 'February 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 45,
@@ -405,7 +408,8 @@ const february = [
     isWeekend: true,
     holidayName: "Valentine's Day",
     date: 'February 14 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      "Valentine's Day is an opportunity for people in Canada to tell somebody that they love them in a romantic way. It falls on February 14, the name day of two saints, St Valentine of Rome and St Valentine of Terni. In pre-Christian times, the middle of February was a time of pagan fertility festivals in Europe and allegedly the time when birds chose a mate.",
   },
   {
     id: 46,
@@ -414,7 +418,8 @@ const february = [
     isWeekend: false,
     holidayName: 'Family Day',
     date: 'February 15 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Family Day is observed in the Canadian provinces of Alberta, Ontario, Saskatchewan, and New Brunswick on the third Monday of February. In British Columbia, Family Day falls on the second Monday of February. This holiday celebrates the importance of families and family life to people and their communities.',
   },
   {
     id: 47,
@@ -423,7 +428,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 48,
@@ -432,7 +437,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 17 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 49,
@@ -441,7 +446,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 50,
@@ -450,7 +455,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 51,
@@ -459,7 +464,7 @@ const february = [
     isWeekend: true,
     holidayName: '',
     date: 'February 20 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 52,
@@ -468,7 +473,7 @@ const february = [
     isWeekend: true,
     holidayName: '',
     date: 'February 21 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 53,
@@ -477,7 +482,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 54,
@@ -486,7 +491,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 55,
@@ -495,7 +500,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 24 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 56,
@@ -504,7 +509,7 @@ const february = [
     isWeekend: false,
     holidayName: '',
     date: 'February 25 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 57,
@@ -513,7 +518,8 @@ const february = [
     isWeekend: false,
     holidayName: 'Yukon Heritage Day',
     date: 'February 26 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Many people in the Yukon, Canada, celebrate the territory’s Heritage Day, usually held on the Friday before the last Sunday of February.',
   },
   {
     id: 58,
@@ -522,7 +528,7 @@ const february = [
     isWeekend: true,
     holidayName: '',
     date: 'February 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 59,
@@ -531,7 +537,7 @@ const february = [
     isWeekend: true,
     holidayName: '',
     date: 'February 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
 ];
 
@@ -543,7 +549,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 1 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 61,
@@ -552,7 +558,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 2 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 62,
@@ -561,7 +567,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 63,
@@ -570,7 +576,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 4 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 64,
@@ -579,7 +585,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 5 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 65,
@@ -588,7 +594,7 @@ const march = [
     isWeekend: true,
     holidayName: '',
     date: 'March 6 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 66,
@@ -597,7 +603,7 @@ const march = [
     isWeekend: true,
     holidayName: '',
     date: 'March 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 67,
@@ -606,7 +612,8 @@ const march = [
     isWeekend: false,
     holidayName: 'Commonwealth Day',
     date: 'March 8 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Commonwealth Day is annually held on the second Monday of March. it commemorates the Commonwealth of Nations, which is a union of some countries that used to be part of the British Empire. The date was chosen because it did not have any previous historical connotations.',
   },
   {
     id: 68,
@@ -615,7 +622,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 9 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 69,
@@ -624,7 +631,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 70,
@@ -633,7 +640,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 11 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 71,
@@ -642,7 +649,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 72,
@@ -651,7 +658,7 @@ const march = [
     isWeekend: true,
     holidayName: '',
     date: 'March 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 73,
@@ -660,7 +667,7 @@ const march = [
     isWeekend: true,
     holidayName: '',
     date: 'March 14 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 74,
@@ -669,7 +676,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 15 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 75,
@@ -678,7 +685,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 76,
@@ -687,7 +694,8 @@ const march = [
     isWeekend: false,
     holidayName: "St. Patrick's Day",
     date: 'March 17 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      "St Patrick's Day is a public holiday in the Canadian province of Newfoundland and Labrador on the nearest Monday to March 17 each year. It remembers St Patrick, a missionary who converted many of Ireland's inhabitants to Christianity in the 5th century. His feast day also celebrates Irish culture.",
   },
   {
     id: 77,
@@ -696,7 +704,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 78,
@@ -705,7 +713,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 79,
@@ -714,7 +722,7 @@ const march = [
     isWeekend: true,
     holidayName: '',
     date: 'March 20 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 80,
@@ -723,7 +731,7 @@ const march = [
     isWeekend: true,
     holidayName: '',
     date: 'March 21 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 81,
@@ -732,7 +740,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 82,
@@ -741,7 +749,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 83,
@@ -750,7 +758,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 24 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 84,
@@ -759,7 +767,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 25 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 85,
@@ -768,7 +776,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 26 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 86,
@@ -777,7 +785,7 @@ const march = [
     isWeekend: true,
     holidayName: '',
     date: 'March 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 87,
@@ -786,7 +794,7 @@ const march = [
     isWeekend: true,
     holidayName: '',
     date: 'March 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 88,
@@ -795,7 +803,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 29 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 89,
@@ -804,7 +812,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 30 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 90,
@@ -813,7 +821,7 @@ const march = [
     isWeekend: false,
     holidayName: '',
     date: 'March 31 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
 ];
 
@@ -825,7 +833,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 1 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 92,
@@ -834,7 +842,8 @@ const april = [
     isWeekend: false,
     holidayName: 'Good Friday',
     date: 'April 2 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Good Friday occurs two days before Easter Sunday. It is the day when Christians commemorate the crucifixion of Jesus Christ, which plays an important part in the Christian faith. It is also a statutory holiday in all Canadian provinces and territories except Quebec, where it is partially observed.',
   },
   {
     id: 93,
@@ -843,7 +852,7 @@ const april = [
     isWeekend: true,
     holidayName: '',
     date: 'April 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 94,
@@ -852,7 +861,8 @@ const april = [
     isWeekend: true,
     holidayName: 'Easter Sunday',
     date: 'April 4 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      "Easter Sunday in Canada celebrates Jesus Christ's resurrection after his death, which is described in the Christian Bible. Some people observe Easter Sunday by attending church while others spend time with their families and friends or engage in Easter egg activities.",
   },
   {
     id: 95,
@@ -861,7 +871,8 @@ const april = [
     isWeekend: false,
     holidayName: 'Easter Monday',
     date: 'April 5 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      "Easter Monday is the day after Easter Sunday, which commemorates Jesus Christ's resurrection, according to the Christian Bible. Easter Monday is also a holiday for many Canadians.",
   },
   {
     id: 96,
@@ -870,7 +881,8 @@ const april = [
     isWeekend: false,
     holidayName: 'National Tartan Day',
     date: 'April 6 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Tartans of all varieties are worn on Tartan Day, which recognizes and celebrates the contributions of Scots and their descendants in Canada on April 6.',
   },
   {
     id: 97,
@@ -879,7 +891,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 98,
@@ -888,7 +900,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 8 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 99,
@@ -897,7 +909,8 @@ const april = [
     isWeekend: false,
     holidayName: 'Vimy Ridge Day',
     date: 'April 9 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Vimy Ridge Day is an annual observance on April 9 to remember Canadians who victoriously fought in the battle of Vimy Ridge in northern France during the First World War. The day is also known as the National Day of Remembrance of the Battle of Vimy Ridge.',
   },
   {
     id: 100,
@@ -906,7 +919,7 @@ const april = [
     isWeekend: true,
     holidayName: '',
     date: 'April 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 101,
@@ -915,7 +928,7 @@ const april = [
     isWeekend: true,
     holidayName: '',
     date: 'April 11 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 102,
@@ -924,7 +937,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 103,
@@ -933,7 +946,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 104,
@@ -942,7 +955,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 14 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 105,
@@ -951,7 +964,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 15 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 106,
@@ -960,7 +973,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 107,
@@ -969,7 +982,7 @@ const april = [
     isWeekend: true,
     holidayName: '',
     date: 'April 17 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 108,
@@ -978,7 +991,7 @@ const april = [
     isWeekend: true,
     holidayName: '',
     date: 'April 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 109,
@@ -987,7 +1000,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 110,
@@ -996,7 +1009,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 20 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 111,
@@ -1005,7 +1018,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 21 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 112,
@@ -1014,7 +1027,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 113,
@@ -1023,7 +1036,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 114,
@@ -1032,7 +1045,7 @@ const april = [
     isWeekend: true,
     holidayName: '',
     date: 'April 24 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 115,
@@ -1041,7 +1054,7 @@ const april = [
     isWeekend: true,
     holidayName: '',
     date: 'April 25 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 116,
@@ -1050,7 +1063,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 26 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 117,
@@ -1059,7 +1072,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 118,
@@ -1068,7 +1081,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 119,
@@ -1077,7 +1090,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 29 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 120,
@@ -1086,7 +1099,7 @@ const april = [
     isWeekend: false,
     holidayName: '',
     date: 'April 30 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
 ];
 
@@ -1098,7 +1111,7 @@ const may = [
     isWeekend: true,
     holidayName: '',
     date: 'May 1 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 122,
@@ -1107,7 +1120,7 @@ const may = [
     isWeekend: true,
     holidayName: '',
     date: 'May 2 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 123,
@@ -1116,7 +1129,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 124,
@@ -1125,7 +1138,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 4 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 125,
@@ -1134,7 +1147,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 5 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 126,
@@ -1143,7 +1156,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 6 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 127,
@@ -1152,7 +1165,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 128,
@@ -1161,7 +1174,7 @@ const may = [
     isWeekend: true,
     holidayName: '',
     date: 'May 8 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 129,
@@ -1170,7 +1183,8 @@ const may = [
     isWeekend: true,
     holidayName: "Mother's Day",
     date: 'May 9 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Many Canadians celebrate Mother’s Day by showing their appreciation for mothers or mother figures. The Mother’s Day date in Canada is on the second Sunday of May each year.',
   },
   {
     id: 130,
@@ -1179,7 +1193,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 131,
@@ -1188,7 +1202,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 11 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 132,
@@ -1197,7 +1211,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 133,
@@ -1206,7 +1220,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 134,
@@ -1215,7 +1229,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 14 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 135,
@@ -1224,7 +1238,7 @@ const may = [
     isWeekend: true,
     holidayName: '',
     date: 'May 15 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 136,
@@ -1233,7 +1247,7 @@ const may = [
     isWeekend: true,
     holidayName: '',
     date: 'May 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 137,
@@ -1242,7 +1256,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 17 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 138,
@@ -1251,7 +1265,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 139,
@@ -1260,7 +1274,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 140,
@@ -1269,7 +1283,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 20 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 141,
@@ -1278,7 +1292,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 21 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 142,
@@ -1287,7 +1301,7 @@ const may = [
     isWeekend: true,
     holidayName: '',
     date: 'May 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 143,
@@ -1296,7 +1310,7 @@ const may = [
     isWeekend: true,
     holidayName: '',
     date: 'May 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 144,
@@ -1305,7 +1319,8 @@ const may = [
     isWeekend: false,
     holidayName: 'Victoria Day',
     date: 'May 24 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Victoria Day, also known as May Two-Four, May Long, and May Long Weekend, is a Canadian holiday on the Monday preceding May 25.',
   },
   {
     id: 145,
@@ -1314,7 +1329,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 25 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 146,
@@ -1323,7 +1338,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 26 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 147,
@@ -1332,7 +1347,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 148,
@@ -1341,7 +1356,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 149,
@@ -1350,7 +1365,7 @@ const may = [
     isWeekend: true,
     holidayName: '',
     date: 'May 29 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 150,
@@ -1359,7 +1374,7 @@ const may = [
     isWeekend: true,
     holidayName: '',
     date: 'May 30 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 151,
@@ -1368,7 +1383,7 @@ const may = [
     isWeekend: false,
     holidayName: '',
     date: 'May 31 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
 ];
 
@@ -1380,7 +1395,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 1 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 153,
@@ -1389,7 +1404,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 2 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 154,
@@ -1398,7 +1413,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 155,
@@ -1407,7 +1422,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 4 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 156,
@@ -1416,7 +1431,7 @@ const june = [
     isWeekend: true,
     holidayName: '',
     date: 'June 5 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 157,
@@ -1425,7 +1440,7 @@ const june = [
     isWeekend: true,
     holidayName: '',
     date: 'June 6 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 158,
@@ -1434,7 +1449,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 159,
@@ -1443,7 +1458,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 8 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 160,
@@ -1452,7 +1467,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 9 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 161,
@@ -1461,7 +1476,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 162,
@@ -1470,7 +1485,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 11 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 163,
@@ -1479,7 +1494,7 @@ const june = [
     isWeekend: true,
     holidayName: '',
     date: 'June 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 164,
@@ -1488,7 +1503,7 @@ const june = [
     isWeekend: true,
     holidayName: '',
     date: 'June 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 165,
@@ -1497,7 +1512,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 14 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 166,
@@ -1506,7 +1521,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 15 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 167,
@@ -1515,7 +1530,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 168,
@@ -1524,7 +1539,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 17 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 169,
@@ -1533,7 +1548,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 170,
@@ -1542,7 +1557,7 @@ const june = [
     isWeekend: true,
     holidayName: '',
     date: 'June 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 171,
@@ -1551,7 +1566,8 @@ const june = [
     isWeekend: true,
     holidayName: "Father's Day",
     date: 'June 20 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Many Canadians observe Father’s Day on the third Sunday of June. It is a day for people to show their appreciation for fathers and father figures. Father figures may include stepfathers, fathers-in-law, guardians (eg. foster parents), and family friends.',
   },
   {
     id: 172,
@@ -1560,7 +1576,8 @@ const june = [
     isWeekend: false,
     holidayName: 'National Indigenous Peoples Day',
     date: 'June 21 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Canada’s National Indigenous Peoples Day, formerly called National Aboriginal Day, is annually held on June 21 to celebrate the unique heritage, diverse cultures, and outstanding achievements of the nation’s Aboriginal peoples. There are three Aboriginal groups in Canada – the First Nations, Inuit, and Métis peoples.',
   },
   {
     id: 173,
@@ -1569,7 +1586,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 174,
@@ -1578,7 +1595,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 175,
@@ -1587,7 +1604,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 24 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 176,
@@ -1596,7 +1613,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 25 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 177,
@@ -1605,7 +1622,7 @@ const june = [
     isWeekend: true,
     holidayName: '',
     date: 'June 26 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 178,
@@ -1614,7 +1631,7 @@ const june = [
     isWeekend: true,
     holidayName: '',
     date: 'June 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 179,
@@ -1623,7 +1640,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 180,
@@ -1632,7 +1649,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 29 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 181,
@@ -1641,7 +1658,7 @@ const june = [
     isWeekend: false,
     holidayName: '',
     date: 'June 30 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
 ];
 
@@ -1653,7 +1670,8 @@ const july = [
     isWeekend: false,
     holidayName: 'Canada Day',
     date: 'July 1 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'On July 1, 1867, Canada became a self-governing dominion of Great Britain and a federation of four provinces: Nova Scotia; New Brunswick; Ontario; and Quebec. The anniversary of this date was called Dominion Day until 1982. Since 1983, July 1 has been officially known as Canada Day.',
   },
   {
     id: 183,
@@ -1662,7 +1680,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 2 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 184,
@@ -1671,7 +1689,7 @@ const july = [
     isWeekend: true,
     holidayName: '',
     date: 'July 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 185,
@@ -1680,7 +1698,7 @@ const july = [
     isWeekend: true,
     holidayName: '',
     date: 'July 4 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 186,
@@ -1689,7 +1707,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 5 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 187,
@@ -1698,7 +1716,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 6 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 188,
@@ -1707,7 +1725,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 189,
@@ -1716,7 +1734,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 8 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 190,
@@ -1725,7 +1743,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 9 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 191,
@@ -1734,7 +1752,7 @@ const july = [
     isWeekend: true,
     holidayName: '',
     date: 'July 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 192,
@@ -1743,7 +1761,7 @@ const july = [
     isWeekend: true,
     holidayName: '',
     date: 'July 11 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 193,
@@ -1752,7 +1770,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 194,
@@ -1761,7 +1779,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 195,
@@ -1770,7 +1788,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 14 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 196,
@@ -1779,7 +1797,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 15 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 197,
@@ -1788,7 +1806,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 198,
@@ -1797,7 +1815,7 @@ const july = [
     isWeekend: true,
     holidayName: '',
     date: 'July 17 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 199,
@@ -1806,7 +1824,7 @@ const july = [
     isWeekend: true,
     holidayName: '',
     date: 'July 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 200,
@@ -1815,7 +1833,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 201,
@@ -1824,7 +1842,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 20 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 202,
@@ -1833,7 +1851,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 21 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 203,
@@ -1842,7 +1860,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 204,
@@ -1851,7 +1869,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 205,
@@ -1860,7 +1878,7 @@ const july = [
     isWeekend: true,
     holidayName: '',
     date: 'July 24 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 206,
@@ -1869,7 +1887,7 @@ const july = [
     isWeekend: true,
     holidayName: '',
     date: 'July 25 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 207,
@@ -1878,7 +1896,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 26 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 208,
@@ -1887,7 +1905,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 209,
@@ -1896,7 +1914,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 210,
@@ -1905,7 +1923,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 29 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 211,
@@ -1914,7 +1932,7 @@ const july = [
     isWeekend: false,
     holidayName: '',
     date: 'July 30 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 212,
@@ -1923,7 +1941,7 @@ const july = [
     isWeekend: true,
     holidayName: '',
     date: 'July 31 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
 ];
 const august = [
@@ -1934,7 +1952,7 @@ const august = [
     isWeekend: true,
     holidayName: '',
     date: 'August 1 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 214,
@@ -1943,7 +1961,8 @@ const august = [
     isWeekend: false,
     holidayName: 'Civic/Provincial Day',
     date: 'August 2 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'The first Monday of August is a holiday for people in many parts of Canada. It is a statutory holiday in some provinces and territories but in others it has another legal status. It is often called the August Holiday, Civic Holiday, Provincial Day, or other local names, such as Terry Fox Day in Manitoba.',
   },
   {
     id: 215,
@@ -1952,7 +1971,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 216,
@@ -1961,7 +1980,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 4 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 217,
@@ -1970,7 +1989,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 5 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 218,
@@ -1979,7 +1998,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 6 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 219,
@@ -1988,7 +2007,7 @@ const august = [
     isWeekend: true,
     holidayName: '',
     date: 'August 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 220,
@@ -1997,7 +2016,7 @@ const august = [
     isWeekend: true,
     holidayName: '',
     date: 'August 8 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 221,
@@ -2006,7 +2025,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 9 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 222,
@@ -2015,7 +2034,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 223,
@@ -2024,7 +2043,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 11 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 224,
@@ -2033,7 +2052,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 225,
@@ -2042,7 +2061,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 226,
@@ -2051,7 +2070,7 @@ const august = [
     isWeekend: true,
     holidayName: '',
     date: 'August 14 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 227,
@@ -2060,7 +2079,7 @@ const august = [
     isWeekend: true,
     holidayName: '',
     date: 'August 15 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 228,
@@ -2069,7 +2088,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 229,
@@ -2078,7 +2097,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 17 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 230,
@@ -2087,7 +2106,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 231,
@@ -2096,7 +2115,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 232,
@@ -2105,7 +2124,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 20 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 233,
@@ -2114,7 +2133,7 @@ const august = [
     isWeekend: true,
     holidayName: '',
     date: 'August 21 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 234,
@@ -2123,7 +2142,7 @@ const august = [
     isWeekend: true,
     holidayName: '',
     date: 'August 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 235,
@@ -2132,7 +2151,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 236,
@@ -2141,7 +2160,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 24 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 237,
@@ -2150,7 +2169,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 25 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 238,
@@ -2159,7 +2178,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 26 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 239,
@@ -2168,7 +2187,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 240,
@@ -2177,7 +2196,7 @@ const august = [
     isWeekend: true,
     holidayName: '',
     date: 'August 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 241,
@@ -2186,7 +2205,7 @@ const august = [
     isWeekend: true,
     holidayName: '',
     date: 'August 29 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 242,
@@ -2195,7 +2214,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 30 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 243,
@@ -2204,7 +2223,7 @@ const august = [
     isWeekend: false,
     holidayName: '',
     date: 'August 31 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
 ];
 
@@ -2216,7 +2235,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 1 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 245,
@@ -2225,7 +2244,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 2 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 246,
@@ -2234,7 +2253,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 247,
@@ -2243,7 +2262,7 @@ const september = [
     isWeekend: true,
     holidayName: '',
     date: 'September 4 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 248,
@@ -2252,7 +2271,7 @@ const september = [
     isWeekend: true,
     holidayName: '',
     date: 'September 5 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 249,
@@ -2261,7 +2280,8 @@ const september = [
     isWeekend: false,
     holidayName: 'Labour Day',
     date: 'September 6 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Labour Day in Canada is celebrated on the first Monday of September. It originally gave workers the chance to campaign for better working conditions or pay. The day is now part of a long weekend for many Canadians.',
   },
   {
     id: 250,
@@ -2270,7 +2290,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 251,
@@ -2279,7 +2299,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 8 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 252,
@@ -2288,7 +2308,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 9 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 253,
@@ -2297,7 +2317,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 254,
@@ -2306,7 +2326,7 @@ const september = [
     isWeekend: true,
     holidayName: '',
     date: 'September 11 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 255,
@@ -2315,7 +2335,7 @@ const september = [
     isWeekend: true,
     holidayName: '',
     date: 'September 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 256,
@@ -2324,7 +2344,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 257,
@@ -2333,7 +2353,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 14 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 258,
@@ -2342,7 +2362,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 15 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 259,
@@ -2351,7 +2371,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 260,
@@ -2360,7 +2380,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 17 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 261,
@@ -2369,7 +2389,7 @@ const september = [
     isWeekend: true,
     holidayName: '',
     date: 'September 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 262,
@@ -2378,7 +2398,7 @@ const september = [
     isWeekend: true,
     holidayName: '',
     date: 'September 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 263,
@@ -2387,7 +2407,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 20 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 264,
@@ -2396,7 +2416,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 21 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 265,
@@ -2405,7 +2425,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 266,
@@ -2414,7 +2434,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 267,
@@ -2423,7 +2443,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 24 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 268,
@@ -2432,7 +2452,7 @@ const september = [
     isWeekend: true,
     holidayName: '',
     date: 'September 25 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 269,
@@ -2441,7 +2461,7 @@ const september = [
     isWeekend: true,
     holidayName: '',
     date: 'September 26 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 270,
@@ -2450,7 +2470,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 271,
@@ -2459,7 +2479,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 272,
@@ -2468,7 +2488,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 29 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 273,
@@ -2477,7 +2497,7 @@ const september = [
     isWeekend: false,
     holidayName: '',
     date: 'September 30 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
 ];
 
@@ -2489,7 +2509,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 1 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 275,
@@ -2498,7 +2518,7 @@ const october = [
     isWeekend: true,
     holidayName: '',
     date: 'October 2 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 276,
@@ -2507,7 +2527,7 @@ const october = [
     isWeekend: true,
     holidayName: '',
     date: 'October 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 277,
@@ -2516,7 +2536,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 4 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 278,
@@ -2525,7 +2545,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 5 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 279,
@@ -2534,7 +2554,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 6 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 280,
@@ -2543,7 +2563,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 281,
@@ -2552,7 +2572,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 8 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 282,
@@ -2561,7 +2581,7 @@ const october = [
     isWeekend: true,
     holidayName: '',
     date: 'October 9 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 283,
@@ -2570,7 +2590,7 @@ const october = [
     isWeekend: true,
     holidayName: '',
     date: 'October 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 284,
@@ -2579,7 +2599,8 @@ const october = [
     isWeekend: false,
     holidayName: 'Thanksgiving Day',
     date: 'October 11 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Thanksgiving Day in Canada has been a holiday on the second Monday of October since 1957. It is a chance for people to give thanks for a good harvest and other fortunes in the past year.',
   },
   {
     id: 285,
@@ -2588,7 +2609,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 286,
@@ -2597,7 +2618,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 287,
@@ -2606,7 +2627,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 14 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 288,
@@ -2615,7 +2636,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 15 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 289,
@@ -2624,7 +2645,7 @@ const october = [
     isWeekend: true,
     holidayName: '',
     date: 'October 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 290,
@@ -2633,16 +2654,16 @@ const october = [
     isWeekend: true,
     holidayName: '',
     date: 'October 17 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 291,
     day: 18,
-    isHoliday: true,
+    isHoliday: false,
     isWeekend: false,
-    holidayName: 'Healthcare Aide Day',
+    holidayName: '',
     date: 'October 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 292,
@@ -2651,7 +2672,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 293,
@@ -2660,7 +2681,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 20 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 294,
@@ -2669,7 +2690,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 21 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 295,
@@ -2678,7 +2699,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 296,
@@ -2687,7 +2708,7 @@ const october = [
     isWeekend: true,
     holidayName: '',
     date: 'October 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 297,
@@ -2696,7 +2717,7 @@ const october = [
     isWeekend: true,
     holidayName: '',
     date: 'October 24 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 298,
@@ -2705,7 +2726,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 25 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 299,
@@ -2714,7 +2735,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 26 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 300,
@@ -2723,7 +2744,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 301,
@@ -2732,7 +2753,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 302,
@@ -2741,7 +2762,7 @@ const october = [
     isWeekend: false,
     holidayName: '',
     date: 'October 29 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 303,
@@ -2750,7 +2771,7 @@ const october = [
     isWeekend: true,
     holidayName: '',
     date: 'October 30 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 304,
@@ -2759,7 +2780,8 @@ const october = [
     isWeekend: true,
     holidayName: 'Halloween',
     date: 'October 31 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Halloween is celebrated in Canada on or around October 31. It is a day to mark the single night in the year when, according to old Celtic beliefs, spirits and the dead can cross over into the world of the living. Some people hold parties and children may trick-or-treat in their neighborhood.',
   },
 ];
 
@@ -2771,7 +2793,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 1 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 306,
@@ -2780,7 +2802,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 2 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 307,
@@ -2789,7 +2811,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 308,
@@ -2798,7 +2820,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 4 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 309,
@@ -2807,7 +2829,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 5 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 310,
@@ -2816,7 +2838,7 @@ const november = [
     isWeekend: true,
     holidayName: '',
     date: 'November 6 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 311,
@@ -2825,7 +2847,7 @@ const november = [
     isWeekend: true,
     holidayName: '',
     date: 'November 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 312,
@@ -2834,7 +2856,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 8 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 313,
@@ -2843,7 +2865,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 9 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 314,
@@ -2852,7 +2874,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 315,
@@ -2861,7 +2883,8 @@ const november = [
     isWeekend: false,
     holidayName: 'Remembrance Day',
     date: 'November 11 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Remembrance Day commemorates the sacrifices of people in all armed conflicts.',
   },
   {
     id: 316,
@@ -2870,7 +2893,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 317,
@@ -2879,7 +2902,7 @@ const november = [
     isWeekend: true,
     holidayName: '',
     date: 'November 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 318,
@@ -2888,7 +2911,7 @@ const november = [
     isWeekend: true,
     holidayName: '',
     date: 'November 14 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 319,
@@ -2897,7 +2920,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 15 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 320,
@@ -2906,7 +2929,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 321,
@@ -2915,7 +2938,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 17 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 322,
@@ -2924,7 +2947,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 323,
@@ -2933,7 +2956,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 324,
@@ -2942,7 +2965,7 @@ const november = [
     isWeekend: true,
     holidayName: '',
     date: 'November 20 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 325,
@@ -2951,7 +2974,7 @@ const november = [
     isWeekend: true,
     holidayName: '',
     date: 'November 21 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 326,
@@ -2960,7 +2983,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 327,
@@ -2969,7 +2992,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 328,
@@ -2978,7 +3001,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 24 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 329,
@@ -2987,7 +3010,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 25 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 330,
@@ -2996,7 +3019,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 26 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 331,
@@ -3005,7 +3028,7 @@ const november = [
     isWeekend: true,
     holidayName: '',
     date: 'November 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 332,
@@ -3014,7 +3037,7 @@ const november = [
     isWeekend: true,
     holidayName: '',
     date: 'November 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 333,
@@ -3023,7 +3046,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 29 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 334,
@@ -3032,7 +3055,7 @@ const november = [
     isWeekend: false,
     holidayName: '',
     date: 'November 30 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
 ];
 
@@ -3044,7 +3067,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 1 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 336,
@@ -3053,7 +3076,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 2 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 337,
@@ -3062,7 +3085,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 3 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 338,
@@ -3071,7 +3094,7 @@ const december = [
     isWeekend: true,
     holidayName: '',
     date: 'December 4 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 339,
@@ -3080,7 +3103,7 @@ const december = [
     isWeekend: true,
     holidayName: '',
     date: 'December 5 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 340,
@@ -3089,7 +3112,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 6 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 341,
@@ -3098,7 +3121,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 7 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 342,
@@ -3107,7 +3130,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 8 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 343,
@@ -3116,7 +3139,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 9 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 344,
@@ -3125,7 +3148,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 10 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 345,
@@ -3134,7 +3157,7 @@ const december = [
     isWeekend: true,
     holidayName: '',
     date: 'December 11 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 346,
@@ -3143,7 +3166,7 @@ const december = [
     isWeekend: true,
     holidayName: '',
     date: 'December 12 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 347,
@@ -3152,7 +3175,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 13 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 348,
@@ -3161,7 +3184,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 14 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 349,
@@ -3170,7 +3193,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 15 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 350,
@@ -3179,7 +3202,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 16 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 351,
@@ -3188,7 +3211,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 17 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 352,
@@ -3197,7 +3220,7 @@ const december = [
     isWeekend: true,
     holidayName: '',
     date: 'December 18 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 353,
@@ -3206,7 +3229,7 @@ const december = [
     isWeekend: true,
     holidayName: '',
     date: 'December 19 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 354,
@@ -3215,7 +3238,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 20 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 355,
@@ -3224,7 +3247,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 21 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 356,
@@ -3233,7 +3256,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 22 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 357,
@@ -3242,7 +3265,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 23 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 358,
@@ -3251,7 +3274,8 @@ const december = [
     isWeekend: false,
     holidayName: 'Christmas Eve',
     date: 'December 24 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Christmas Eve in Canada is the last day of preparations for the Christmas Day and Boxing Day holidays. It is a busy shopping day and some people give gifts to family and friends on this day.',
   },
   {
     id: 359,
@@ -3260,7 +3284,8 @@ const december = [
     isWeekend: true,
     holidayName: 'Christmas Day',
     date: 'December 25 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Many Christians in Canada mark the birth of Jesus Christ on December 25, which is known as Christmas Day. It is a day of celebration when many Canadians exchange gifts and enjoy festive meals.',
   },
   {
     id: 360,
@@ -3269,7 +3294,8 @@ const december = [
     isWeekend: true,
     holidayName: 'Boxing Day',
     date: 'December 26 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      'Boxing Day is a holiday for many Canadians on December 26. It gives people the chance to take part in the post-Christmas sales or watch ice hockey games.',
   },
   {
     id: 361,
@@ -3278,7 +3304,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 27 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 362,
@@ -3287,7 +3313,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 28 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 363,
@@ -3296,7 +3322,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 29 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 364,
@@ -3305,7 +3331,7 @@ const december = [
     isWeekend: false,
     holidayName: '',
     date: 'December 30 2021',
-    howWasYourDay: '',
+    holidayInformation: '',
   },
   {
     id: 365,
@@ -3314,7 +3340,8 @@ const december = [
     isWeekend: false,
     holidayName: "New Year's Eve",
     date: 'December 31 2021',
-    howWasYourDay: '',
+    holidayInformation:
+      "New Year's Eve is a day of reflection of the past year's events and a time to prepare for the New Year. It is also the last day of the Canadian tax year. Many people attend special parties or other events to mark the end of one year and the start of the next one.",
   },
 ];
 

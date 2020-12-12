@@ -37,8 +37,7 @@
   font-size: var(--fs-h4);
 }
 
-.modal-h4-holiday,
-.modal-about-title {
+.modal-h4-holiday {
   margin-bottom: 0;
 }
 
@@ -46,28 +45,12 @@
   color: var(--clr-accent);
 }
 
-.modal-about-day {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.modal-h4-holiday-information-title {
+  margin-bottom: 0.5em;
 }
 
-.modal-mood-btn-container {
-  display: flex;
-}
-
-.modal-mood-btn {
-  font-size: var(--fs-h2);
-  margin: 0 0.1em;
-  transition: all 0.3s;
-}
-
-.happy-faces:hover {
-  color: var(--clr-green);
-}
-
-.unhappy-faces:hover {
-  color: var(--clr-accent);
+.modal-information {
+  margin: 0;
+  opacity: 0.7;
+  max-width: 40em;
 }

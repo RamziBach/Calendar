@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Modal = ({ isOpen, date, handleClose, holidayName, moods }) => {
+const Modal = ({ isOpen, date, handleClose, holidayName, information }) => {
   return (
     <div
       style={isOpen ? { display: 'grid' } : { display: 'none' }}
@@ -19,25 +19,9 @@ const Modal = ({ isOpen, date, handleClose, holidayName, moods }) => {
           </span>{' '}
           {holidayName}
         </h4>
-        <div className="modal-about-day">
-          <h4 className="modal-about-title">How was your day?</h4>
-          <div className="modal-mood-btn-container">
-            <button className="modal-mood-btn happy-faces" title="Awesome !">
-              <i className="far fa-laugh-beam"></i>
-            </button>
-            <button className="modal-mood-btn happy-faces" title="Great !">
-              <i className="far fa-grin"></i>
-            </button>
-            <button className="modal-mood-btn unhappy-faces" title="meh">
-              <i className="far fa-meh"></i>
-            </button>
-            <button className="modal-mood-btn unhappy-faces" title="sad">
-              <i className="far fa-sad-tear"></i>
-            </button>
-            <button className="modal-mood-btn unhappy-faces" title="angry">
-              <i className="far fa-angry"></i>
-            </button>
-          </div>
+        <div className="modal-holiday-information-container">
+          <h4 className="modal-h4-holiday-information-title">Information:</h4>
+          <h5 className="modal-information">{information}</h5>
         </div>
       </div>
     </div>
