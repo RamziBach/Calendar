@@ -19,6 +19,8 @@
   padding: 1em 2em;
   background-color: var(--clr-light);
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-header {
@@ -35,6 +37,37 @@
   font-size: var(--fs-h4);
 }
 
-.holiday-title {
+.modal-h4-holiday,
+.modal-about-title {
+  margin-bottom: 0;
+}
+
+.modal-h4-holiday-title {
+  color: var(--clr-accent);
+}
+
+.modal-about-day {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.modal-mood-btn-container {
+  display: flex;
+}
+
+.modal-mood-btn {
+  font-size: var(--fs-h2);
+  margin: 0 0.1em;
+  transition: all 0.3s;
+}
+
+.happy-faces:hover {
+  color: var(--clr-green);
+}
+
+.unhappy-faces:hover {
   color: var(--clr-accent);
 }

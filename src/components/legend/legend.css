@@ -1,6 +1,5 @@
 .legend {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   margin-bottom: var(--fs-h1);

@@ -1,196 +1,256 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { calendar } from '../../data/data';
+import {
+  january as januaryData,
+  february as februaryData,
+  march as marchData,
+  april as aprilData,
+  may as mayData,
+  june as juneData,
+  july as julyData,
+  august as augustData,
+  september as septemberData,
+  october as octoberData,
+  november as novemberData,
+  december as decemberData,
+} from '../../data/data';
 import Legend from '../legend/Legend';
 import Month from '../month/Month';
 import Modal from '../modal/Modal';
 
 const Calendar = () => {
   const weeks = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
-  const isHoliday = { backgroundColor: '#ef4462', color: '#eef2f6' };
-  const isWeekend = { backgroundColor: '#8aa6c1' };
+  const isHolidayStyle = { backgroundColor: '#ef4462', color: '#eef2f6' };
+  const isWeekendStyle = { backgroundColor: '#8aa6c1' };
 
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [holidayName, setHolidayName] = useState('');
   const [date, setDate] = useState('');
-  const [holiday, setHoliday] = useState('');
+
+  const [januaryItems, setJanuaryItems] = useState(januaryData);
+  const [februaryItems, setFebruaryItems] = useState(februaryData);
+  const [marchItems, setMarchItems] = useState(marchData);
+  const [aprilItems, setAprilItems] = useState(aprilData);
+  const [mayItems, setMayItems] = useState(mayData);
+  const [juneItems, setJuneItems] = useState(juneData);
+  const [julyItems, setJulyItems] = useState(julyData);
+  const [augustItems, setAugustItems] = useState(augustData);
+  const [septemberItems, setSeptemberItems] = useState(septemberData);
+  const [octoberItems, setOctoberItems] = useState(octoberData);
+  const [novemberItems, setNovemberItems] = useState(novemberData);
+  const [decemberItems, setDecemberItems] = useState(decemberData);
+
+  const handleClose = () => {
+    setIsModalOpen(false);
+    setHolidayName('');
+    setDate('');
+  };
 
   const daysOfTheWeek = weeks.map(day => <p key={uuidv4()}>{day}</p>);
 
-  const january = calendar.january.map(data => (
+  const january = januaryItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
   ));
 
-  const february = calendar.february.map(data => (
+  const february = februaryItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
   ));
 
-  const march = calendar.march.map(data => (
+  const march = marchItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
   ));
 
-  const april = calendar.april.map(data => (
+  const april = aprilItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
   ));
 
-  const may = calendar.may.map(data => (
+  const may = mayItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
   ));
 
-  const june = calendar.june.map(data => (
+  const june = juneItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
   ));
 
-  const july = calendar.july.map(data => (
+  const july = julyItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
   ));
 
-  const august = calendar.august.map(data => (
+  const august = augustItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
   ));
 
-  const september = calendar.september.map(data => (
+  const september = septemberItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
   ));
 
-  const october = calendar.october.map(data => (
+  const october = octoberItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
   ));
 
-  const november = calendar.november.map(data => (
+  const november = novemberItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
   ));
 
-  const december = calendar.december.map(data => (
+  useEffect(() => {
+    console.log(januaryItems);
+  }, [januaryItems]);
+
+  const december = decemberItems.map(data => (
     <div
       onClick={() => {
         setIsModalOpen(true);
         setDate(data.date);
-        setHoliday(data.isHoliday ? `${data.holidayName}` : 'No holiday today');
+        setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
       }}
-      style={data.isHoliday ? isHoliday : data.isWeekend ? isWeekend : {}}
+      style={
+        data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
+      }
       className="days"
-      key={uuidv4()}
+      key={data.id}
     >
       {data.day}
     </div>
@@ -309,8 +369,8 @@ const Calendar = () => {
       <Modal
         isOpen={isModalOpen}
         date={date}
-        handleClose={() => setIsModalOpen(false)}
-        holiday={holiday}
+        handleClose={handleClose}
+        holidayName={holidayName}
       />
     </>
   );
