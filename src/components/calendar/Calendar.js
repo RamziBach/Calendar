@@ -58,8 +58,9 @@ const Calendar = () => {
     <div
       onClick={() => {
         setIsModalOpen(true);
-        setDate(data.date);
         setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
+        setDate(data.date);
+        setHolidayInformation(data.holidayInformation);
       }}
       style={
         data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
@@ -75,8 +76,9 @@ const Calendar = () => {
     <div
       onClick={() => {
         setIsModalOpen(true);
-        setDate(data.date);
         setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
+        setDate(data.date);
+        setHolidayInformation(data.holidayInformation);
       }}
       style={
         data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
@@ -92,8 +94,9 @@ const Calendar = () => {
     <div
       onClick={() => {
         setIsModalOpen(true);
-        setDate(data.date);
         setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
+        setDate(data.date);
+        setHolidayInformation(data.holidayInformation);
       }}
       style={
         data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
@@ -109,8 +112,9 @@ const Calendar = () => {
     <div
       onClick={() => {
         setIsModalOpen(true);
-        setDate(data.date);
         setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
+        setDate(data.date);
+        setHolidayInformation(data.holidayInformation);
       }}
       style={
         data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
@@ -126,8 +130,9 @@ const Calendar = () => {
     <div
       onClick={() => {
         setIsModalOpen(true);
-        setDate(data.date);
         setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
+        setDate(data.date);
+        setHolidayInformation(data.holidayInformation);
       }}
       style={
         data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
@@ -143,8 +148,9 @@ const Calendar = () => {
     <div
       onClick={() => {
         setIsModalOpen(true);
-        setDate(data.date);
         setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
+        setDate(data.date);
+        setHolidayInformation(data.holidayInformation);
       }}
       style={
         data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
@@ -160,8 +166,9 @@ const Calendar = () => {
     <div
       onClick={() => {
         setIsModalOpen(true);
-        setDate(data.date);
         setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
+        setDate(data.date);
+        setHolidayInformation(data.holidayInformation);
       }}
       style={
         data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
@@ -177,8 +184,9 @@ const Calendar = () => {
     <div
       onClick={() => {
         setIsModalOpen(true);
-        setDate(data.date);
         setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
+        setDate(data.date);
+        setHolidayInformation(data.holidayInformation);
       }}
       style={
         data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
@@ -194,8 +202,9 @@ const Calendar = () => {
     <div
       onClick={() => {
         setIsModalOpen(true);
-        setDate(data.date);
         setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
+        setDate(data.date);
+        setHolidayInformation(data.holidayInformation);
       }}
       style={
         data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
@@ -211,8 +220,9 @@ const Calendar = () => {
     <div
       onClick={() => {
         setIsModalOpen(true);
-        setDate(data.date);
         setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
+        setDate(data.date);
+        setHolidayInformation(data.holidayInformation);
       }}
       style={
         data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
@@ -228,8 +238,9 @@ const Calendar = () => {
     <div
       onClick={() => {
         setIsModalOpen(true);
-        setDate(data.date);
         setHolidayName(data.isHoliday ? data.holidayName : 'No holiday today');
+        setDate(data.date);
+        setHolidayInformation(data.holidayInformation);
       }}
       style={
         data.isHoliday ? isHolidayStyle : data.isWeekend ? isWeekendStyle : {}
